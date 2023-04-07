@@ -66,6 +66,23 @@
 .banner-btn a{
     transition:color 2s;
 }
+@media screen and (max-width:770px){
+    .logo{
+        width:100px;
+        height:100px;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    .banner-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-btn a{
+        margin-bottom: 20px;
+    }
+}
 #sideNav{
     background-color: #009688;
     width:250px;
@@ -177,6 +194,30 @@ nav ul li a:hover{
     padding:0 20px;
     text-align: initial;
     max-width: 500px;
+}
+@media screen and (max-width:770px){
+    #features .title-text h1,
+    #testimonials .title-text h1,
+    #Services .title-text h1,
+    #Footer .title-text h1
+    {
+        font-size: 32px;
+    }
+    #features .title-text p,
+    #testimonials .title-text p,
+    #Services .title-text p,
+    #Footer .title-text p{
+        font-size: 16px;
+    }
+    #features .feature-box .features h1{
+        font-size: 18px;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width:90%;
+    }
 }
 #Services{
     width:100%;
